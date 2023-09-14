@@ -12,6 +12,10 @@ nav li {
   list-style: none;
 }
 
+* {
+  font-family: sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;

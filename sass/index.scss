@@ -1,5 +1,8 @@
 @import "./component/variable";
 @import "./component/nav";
+*{
+    font-family: sans-serif;
+}
 body{
     @include zeroPM;
     @include dis-flex;

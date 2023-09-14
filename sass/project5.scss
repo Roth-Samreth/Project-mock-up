@@ -1,0 +1,6 @@
+@import "./component/variable";
+@import "./component/mixin";
+@import "./component/nav";
+*{
+    @include zeroPM;
+}
