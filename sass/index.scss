@@ -1,0 +1,13 @@
+@import "./component/variable";
+@import "./component/nav";
+body{
+    @include zeroPM;
+    @include dis-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-container{
+    height: 100vh;
+    @include dis-flex;
+    background-color: $main-color;
+}

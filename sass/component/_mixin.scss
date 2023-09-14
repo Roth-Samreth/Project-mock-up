@@ -1,0 +1,13 @@
+@mixin listNone{
+    list-style: none;
+}
+@mixin dis-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $regpadding;
+}
+@mixin zeroPM{
+    margin: 0;
+    padding: 0;
+}
