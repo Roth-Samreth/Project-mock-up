@@ -8,6 +8,16 @@ button {
   color: white;
 }
 
+button {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  background-color: rgb(84, 123, 207);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
 nav {
   width: 100%;
   padding: 10px;
