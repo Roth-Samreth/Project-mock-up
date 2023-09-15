@@ -1,5 +1,6 @@
 @import "./component/variable";
 @import "./component/nav";
+@import "./component/button";
 *{
     font-family: sans-serif;
 }
@@ -10,7 +11,8 @@ body{
     justify-content: center;
 }
 .btn-container{
-    height: 100vh;
+    padding: $regpadding;
     @include dis-flex;
+    flex-wrap: wrap;
     background-color: $main-color;
 }

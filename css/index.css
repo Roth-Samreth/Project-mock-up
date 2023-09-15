@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  background-color: teal;
+  background-color: rgb(35, 235, 235);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +10,15 @@ nav {
 }
 nav li {
   list-style: none;
+}
+
+button {
+  width: 280px;
+  padding: 10px;
+  background-color: rgb(84, 123, 207);
+  border: none;
+  border-radius: 10px;
+  color: white;
 }
 
 * {
@@ -28,10 +37,11 @@ body {
 }
 
 .btn-container {
-  height: 100vh;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: teal;
+  flex-wrap: wrap;
+  background-color: rgb(35, 235, 235);
 }

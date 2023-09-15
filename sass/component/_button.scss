@@ -1,0 +1,10 @@
+@import "variable";
+@import "mixin";
+button{
+    width: 280px;
+    padding: $regpadding;
+    background-color: $primary-color;
+    border: none;
+    border-radius: $regpadding;
+    color: $text-color;
+}
