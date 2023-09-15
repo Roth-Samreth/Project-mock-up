@@ -109,3 +109,11 @@ img {
     }
   }
 }
+#about{
+  width: 100%;
+  @include dis-flex;
+  justify-content: center;
+}
+footer{
+  padding: $regpadding;
+}

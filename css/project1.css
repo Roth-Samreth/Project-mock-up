@@ -150,3 +150,14 @@ img {
   width: 100px;
   height: auto;
 }
+
+#about {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+footer {
+  padding: 10px;
+}
