@@ -1,6 +1,110 @@
 @import "./component/variable";
 @import "./component/mixin";
+@import "./component/button";
 @import "./component/nav";
-*{
-    @include zeroPM;
+
+* {
+  font-family: sans-serif;
+  @include zeroPM;
+  @include listNone;
+}
+body {
+  @include dis-flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+}
+header {
+  background-image: url(https://imageio.forbes.com/blogs-images/olliebarder/files/2017/04/radwimps_banda-1200x675.jpg?format=jpg&width=1200);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50dvh;
+  #header{
+    background-color: rgba(0,0,0,0.3);
+    height: 50vh;
+    @include dis-flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#albums {
+  width: 100%;
+  @include dis-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  #album {
+    width: 100%;
+    @include dis-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.most-trend {
+  max-width: 750px;
+  width: 100%;
+  box-shadow: 3px 3px 10px rgb(185, 174, 174);
+  border-radius: 10px;
+  padding: 25px;
+}
+.img,
+.text {
+  max-width: 750px;
+  width: 100%;
+}
+img {
+  max-width: 750px;
+  width: 100%;
+}
+.play {
+  width: 100%;
+  @include dis-flex;
+  justify-content: flex-end;
+  padding: 10px;
+  a {
+    button {
+      width: 100px;
+      height: auto;
+    }
+  }
+}
+.mini {
+  width: 100%;
+  @include dis-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.songlist {
+  width: 100%;
+  @include dis-flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.song {
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 3px 3px 10px rgb(185, 174, 174);
+  border-radius: 10px;
+  padding: $regpadding;
+  img {
+    max-width: 450px;
+    width: 100%;
+  }
+  .s {
+    width: 100%;
+    height: auto;
+    @include dis-flex;
+    justify-content: flex-end;
+    a {
+      button {
+        width: 100px;
+        height: auto;
+      }
+    }
+  }
 }

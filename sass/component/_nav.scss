@@ -2,10 +2,10 @@
 @import "./mixin";
 nav{
     width: 100%;
+    padding: $regpadding;
     background-color: $main-color;
     @include dis-flex;
     color: $text-color;
-    padding: $regpadding;
     li{
         @include listNone;
     }

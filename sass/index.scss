@@ -3,9 +3,9 @@
 @import "./component/button";
 *{
     font-family: sans-serif;
+    @include zeroPM;
 }
 body{
-    @include zeroPM;
     @include dis-flex;
     flex-direction: column;
     justify-content: center;

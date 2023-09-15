@@ -1,12 +1,10 @@
 nav {
   width: 100%;
+  padding: 10px;
   background-color: rgb(35, 235, 235);
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   color: white;
-  padding: 10px;
 }
 nav li {
   list-style: none;
@@ -15,4 +13,5 @@ nav li {
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
