@@ -1,18 +1,141 @@
+button {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  background-color: rgb(84, 123, 207);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
 nav {
   width: 100%;
+  padding: 10px;
   background-color: rgb(35, 235, 235);
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   color: white;
-  padding: 10px;
 }
 nav li {
   list-style: none;
 }
 
 * {
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+}
+
+header {
+  background-image: url(https://imageio.forbes.com/blogs-images/olliebarder/files/2017/04/radwimps_banda-1200x675.jpg?format=jpg&width=1200);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50dvh;
+}
+header #header {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 50vh;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#albums {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#albums #album {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.most-trend {
+  max-width: 750px;
+  width: 100%;
+  box-shadow: 3px 3px 10px rgb(185, 174, 174);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.img,
+.text {
+  max-width: 750px;
+  width: 100%;
+}
+
+img {
+  max-width: 750px;
+  width: 100%;
+}
+
+.play {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.play a button {
+  width: 100px;
+  height: auto;
+}
+
+.mini {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.songlist {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.song {
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 3px 3px 10px rgb(185, 174, 174);
+  border-radius: 10px;
+  padding: 10px;
+}
+.song img {
+  max-width: 450px;
+  width: 100%;
+}
+.song .s {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.song .s a button {
+  width: 100px;
+  height: auto;
 }
